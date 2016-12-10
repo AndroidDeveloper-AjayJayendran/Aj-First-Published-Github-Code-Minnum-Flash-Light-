@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
+    tools:context="ajay.com.ledflash.MainActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:background="@drawable/m4"
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/blink"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SOS"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:id="@+id/blink"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/input_outline"
+        android:layout_above="@+id/t1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="\u00A9 2016 | Developed by Ajay Jayendran\n"
+        android:id="@+id/t1"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#DAA520"/>
+</RelativeLayout>
